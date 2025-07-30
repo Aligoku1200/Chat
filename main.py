@@ -13,7 +13,7 @@ C=L.comId
 O=L.objectId
 S=aminoli.SubClient(comId=C,profile=Ç.profile)
 X1=S.get_chat_users(chatId=O,start=0,size=100).userId
-U.apend(X1)
+U.append(X1)
 while 1:
 	X2=S.get_chat_users(chatId=O,start=0,size=100)
 	if X2==U:
