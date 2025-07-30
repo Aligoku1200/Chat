@@ -15,7 +15,7 @@ S=aminoli.SubClient(comId=C,profile=Ç.profile)
 X1=S.get_chat_users(chatId=O,start=0,size=100).userId
 U.append(X1)
 while 1:
-	X2=S.get_chat_users(chatId=O,start=0,size=100)
+	X2=S.get_chat_users(chatId=O,start=0,size=100).userId
 	if X2==U:
 		print("نوبة فاضية")
 		pass
