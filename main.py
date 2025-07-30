@@ -12,10 +12,10 @@ L=Ç.get_from_code("http://aminoapps.com/p/prd2qm")
 C=L.comId
 O=L.objectId
 S=aminoli.SubClient(comId=C,profile=Ç.profile)
-X1=S.get_chat_users(chatId=O,start=0,size=100).userId
+X1=S.get_chat_users(chatId=O,start=0,size=1).userId
 U.append(X1)
 while 1:
-	X2=S.get_chat_users(chatId=O,start=0,size=100).userId
+	X2=S.get_chat_users(chatId=O,start=0,size=1).userId
 	if X2==U:
 		print("نوبة فاضية")
 		pass
