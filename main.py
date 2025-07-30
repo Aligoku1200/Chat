@@ -22,10 +22,10 @@ while 1:
 		X6=X4.content
 		if X5 in U:
 			print("نوبة فاضية")
-		if X6!=None:
+		elif X6!=None:
 			if X6.startswith("."):
 				print("نوبة فاضية")
-		if X5 not in U:
+		elif X5 not in U:
 			X8=S.get_chat_users(chatId=O,start=0,size=100).userId
 			if X5 in X8:
 				XX=" واحد دخل الشات الحقه"
