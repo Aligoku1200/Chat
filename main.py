@@ -3,7 +3,7 @@ os.system("pip install amino.li")
 os.system("pip install requests")
 import aminoli,time,requests 
 os.system("clear")
-Ç=aminoli.Client(devicId="19EC08F654EDA29F919257B18C9B7F4985D59C48BE179EE53DA63532F7588BB92505525E82A3E707C0")
+Ç=aminoli.Client()
 Ç.login("xzv@usbc.be","GOKU12")
 TT="8227089815:AAEAWDTBkzNtTfuf0PfFZvh-wEFAKSihU2w"
 TC="8100160592"
